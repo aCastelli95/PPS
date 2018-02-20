@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>appElectron</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <div class="container fondoRojo">
+    <h2>Hover Rows</h2>
+    <p>The .table-hover class enables a hover state on table rows:</p>
+    
+    <div class="table-hover">
+      <table lass="table-hover" id="tabla_historial">
+        <thead>
+          <tr>
+            <th>Usuario</th>
+            <th>Id Puerta</th>
+            <th>Accion</th>
+            <th>Tiempo</th>
+          </tr>
+        </thead>
+        <tbody id="content_table">
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  
+  <div class="container">
+    <ul>
+      <li><input type='submit' value='Abrir' id='abrir'/></li>
+      <li><input type='submit' value='Cerrar' id='cerrar'/></li>
+    </ul>
+  </div>
+</div>
+
+  <div id='tarjetasBotones'>
+    <!--Estructura que se modifica en el javaScript-->
+    
+  </div>
+
+  <script>
+    require('./paginaTwo.js');
+  </script>
+
+</html>
