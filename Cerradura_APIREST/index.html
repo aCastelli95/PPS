@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>appElectron</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class='login'>
+    <h2>Sign in</h2>
+    <input id='username' name='username' placeholder='Username' type='text'/>
+    <input id='pw' name='password' placeholder='Password' type='password'/>
+    <input id='idPuerta' name='idPuerta' placeholder='id-puerta' type='text'/>
+    
+    <input type='submit' value='Sign in' id='entrar'/>
+    <div id='tarjetaError' >
+      
+    </div>
+
+  </div>
+
+<script>
+  // correr con la ventana que se este ejecutando
+  require('./bienvenido.js')
+</script>
+
+</body>
+</html>
